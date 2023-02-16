@@ -1,8 +1,8 @@
 #include <stdio.h>
-
-int main() {
-   
+/*this is the necessary comment*/
+int main(void) 
+{
     puts("Programming is like building a multilingual puzzle");
-
+    puts("");
     return 0;
 }
