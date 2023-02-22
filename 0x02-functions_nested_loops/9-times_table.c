@@ -17,7 +17,7 @@ for (b = 0; b < 10; b++)
 {
 if (c < 10)
 {
-if (c != 0)
+if (b != 0)
 {
 _putchar(' ');
 _putchar(' ');
