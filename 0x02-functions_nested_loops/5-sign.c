@@ -25,5 +25,4 @@ else
 _putchar(46);
 return (-1);
 }
-return (0);
 }
