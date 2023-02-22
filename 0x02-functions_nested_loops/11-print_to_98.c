@@ -14,16 +14,16 @@ int i;
 
 if (n <= 98)
 {
-printf("%d", n);
+printf("%d\n", n);
 
 for (i = n + 1; i < 99; i++)
-printf(", %d", i);
+printf(", %d\n", i);
 }
 else
 {
-printf("%d", n);
+printf("%d\n", n);
 
 for (i = n - 1; i > 97; i--)
-printf(", %d", i);
+printf(", %d\n", i);
 }
 }
