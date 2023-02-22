@@ -17,19 +17,19 @@ for (b = 0; b < 10; b++)
 {
 if (c < 10)
 {
-putchar(' ');
-putchar(' ');
-putchar(c + '0');
+_putchar(' ');
+_putchar(' ');
+_putchar(c + '0');
 }
 else
 {
-putchar(' ');
-putchar(c / 10 + '0');
-putchar(c % 10 + '0');
+_putchar(' ');
+_putchar(c / 10 + '0');
+_putchar(c % 10 + '0');
 }
-putchar(44);
+_putchar(44);
 c += a;
 }
-putchar('\n');
+_putchar('\n');
 }
 }
