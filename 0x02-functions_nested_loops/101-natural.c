@@ -8,11 +8,11 @@
  *
  */
 
-int main(int n)
+int main(void)
 {
 if (n < 1024)
 {
-int sum, r, f, t, i;
+int n, sum, r, f, t, i;
 
 sum = 0;
 f = 0;
