@@ -9,31 +9,17 @@
 
 int main(void)
 {
-int sum, n,  r, f, t, i;
+int n, sum;
 
-n = 1023;
-sum = 0;
-f = 0;
-t = 0;
-r = 5;
-while (r < n)
+n = sum = 0;
+while (i < 1024)
 {
-f++;
-r += 5;
-}
-
-r = 3;
-while (r < n)
+if ((i % 3 == 0) || (i % 5 == 0))
 {
-t++;
-r += 3;
+z += i;
 }
-
-for (i = 1; i < f + 1; i++)
-sum += i * 5;
-
-for (i = 1; i < t + 1; i++)
-sum += i * 3;
-printf("%d\n", sum);
+i++;
+}
+printf("%d\n", z);
 return (0);
 }
