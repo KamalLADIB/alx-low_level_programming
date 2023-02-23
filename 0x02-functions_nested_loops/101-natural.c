@@ -10,10 +10,11 @@
 
 int main(void)
 {
-if (n < 1024)
-{
 int n, sum, r, f, t, i;
 
+scanf("%d", &n);
+if (n < 1024)
+{
 sum = 0;
 f = 0;
 t = 0;
