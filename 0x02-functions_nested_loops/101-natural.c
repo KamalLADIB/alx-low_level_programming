@@ -8,7 +8,7 @@
  *
  */
 
-void get_natural(int n)
+int main(int n)
 {
 if (n < 1024)
 {
@@ -38,4 +38,5 @@ for (i = 1; i < t + 1; i++)
 sum += i * 3;
 printf("%d\n", sum);
 }
+return (0);
 }
