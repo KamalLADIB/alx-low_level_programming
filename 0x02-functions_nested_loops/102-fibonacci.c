@@ -14,12 +14,12 @@ a = 1;
 b = 2;
 d = 50;
 
-printf("%lu, %lu, ", a, b);
+printf("%lu, %lu", a, b);
 
 for (i = 2; i < d; i++)
 {
 c = b + a;
-printf("%lu, ", c);
+printf(", %lu", c);
 a = b;
 b = c;
 }
