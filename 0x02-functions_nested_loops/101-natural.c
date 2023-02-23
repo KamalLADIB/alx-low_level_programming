@@ -9,12 +9,9 @@
 
 int main(void)
 {
-int n;
+int sum, n,  r, f, t, i;
 
-if (n < 1024)
-{
-int sum, r, f, t, i;
-
+n = 1023;
 sum = 0;
 f = 0;
 t = 0;
@@ -38,6 +35,5 @@ sum += i * 5;
 for (i = 1; i < t + 1; i++)
 sum += i * 3;
 printf("%d\n", sum);
-}
 return (0);
 }
