@@ -14,15 +14,15 @@ a = 1;
 b = 2;
 d = 50;
 
-printf("%lu, %lu\n", a, b);
+printf("%lu, %lu, ", a, b);
 
-for (i = 1; i < d; i++)
+for (i = 2; i < d; i++)
 {
 c = b + a;
 printf("%lu, ", c);
 a = b;
 b = c;
 }
-printf("\n%d", i);
+printf("\n");
 return (0);
 }
