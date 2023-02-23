@@ -1,8 +1,7 @@
 #include <stdio.h>
 #include "main.h"
 /**
- * get_natural  - Entry point
- * @n: input number
+ * main  - Entry point
  *
  * Return: void
  *
@@ -10,11 +9,12 @@
 
 int main(void)
 {
-int n, sum, r, f, t, i;
+int n;
 
-scanf("%d", &n);
 if (n < 1024)
 {
+int sum, r, f, t, i;
+
 sum = 0;
 f = 0;
 t = 0;
