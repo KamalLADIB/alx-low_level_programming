@@ -9,7 +9,6 @@ int main(void)
 {
 unsigned long int a, b, c, d;
 
-i = 0;
 a = 1;
 b = 2;
 d = 2;
