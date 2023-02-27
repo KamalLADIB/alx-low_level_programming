@@ -1,13 +1,13 @@
 #include "main.h"
 /**
- * _isupper  - Entry point
+ * _isdigit  - Entry point
  * @c: input number
  *
  * Return: sum of two numbers
  *
  */
 
-int _isupper(int c);
+int _isdigit(int c)
 {
 int i;
 
